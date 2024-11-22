@@ -6,10 +6,11 @@ function sendEmail(){
     let subject = document.getElementById("subject").value;
     let message = document.getElementById("description").value;
 
-    let emailReceiver = "nonono@gmail.com";
+    let emailReceiver = "ilhamfaqot1223@gmail.com";
 
     let a = document.createElement("a");
     a.href = `mailto:${emailReceiver}?subject=${subject}&body=${message}`
     a.target =  "_blank";
     a.click();
 }
+

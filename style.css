@@ -126,7 +126,8 @@ argumen odd/even untuk memilih elemen dengan urutan ganjil atau genap */
     border: 1px solid black;
     border-radius: 12px;
     padding: 16px;
-    max-width: 220px;
+    max-width: 300x;
+    max-height: fit-content;
 }
 
 .personal .right .skill img {
